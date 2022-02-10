@@ -4,12 +4,12 @@ const settings = {
   },
   meta: {
     rootUrl: "http://localhost:5000",
-    title: "App",
-    description: "The app description goes here.",
+    title: "Merican Limited Nairobi Kenya",
+    description: "Commercial Kitchen Equipment or Appliance in Kenya",
     social: {
       graphic:
         "https://cheatcode-assets.s3.amazonaws.com/default-social-graphic.png",
-      twitter: "@cheatcodetuts",
+      twitter: "@MericanLimited",
     },
   },
   routes: {
