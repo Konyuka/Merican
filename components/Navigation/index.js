@@ -28,12 +28,23 @@ export default function Example()
             <div className="relative h-16 flex justify-between">
 
               <div className="relative z-10 px-2 flex lg:px-0">
-                <div className="flex-shrink-0 flex items-center">
+                <div className="flex-shrink-0 flex items-center mr-20">
                   <img
                     className="block h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt="Workflow"
                   />
+                </div>
+                <div className="py-4">
+                  <a href="https://twitter.com/mericanlimited?lang=en" rel="noopener noreferrer" target="_blank" className="mr-2">
+                  <i className="fab font-bold fa-twitter fa-xl text-gray-300 hover:text-blue-100"></i>
+                  </a>
+                  <a href="https://twitter.com/mericanlimited?lang=en" rel="noopener noreferrer" target="_blank" className="mr-2">
+                    <i className="fab font-bold fa-facebook fa-xl text-gray-300 hover:text-white"></i>
+                  </a>
+                  <a href="https://twitter.com/mericanlimited?lang=en" rel="noopener noreferrer" target="_blank" className="mr-2">
+                    <i className="fab font-bold fa-instagram fa-xl text-gray-300 hover:text-white"></i>
+                  </a>
                 </div>
               </div>
 
@@ -71,10 +82,10 @@ export default function Example()
 
               <div className="hidden lg:relative lg:z-10 lg:ml-4 lg:flex lg:items-center">
                 <a href="tel:0740 174 448" className="mr-8">
-                  <i className="fas fa-phone text-white m-1 "></i> <h1 className="text-white font-bold text-md">0740 174 448</h1>
+                  <i className="fas fa-phone text-gray-300 m-1 "></i> <h1 className="text-gray-200 font-bold text-md">0740 174 448</h1>
                 </a>
                 <a href="mailto:0740 174 448">
-                  <i className="fas fa-paper-plane text-white m-1"> </i> <h1 className="text-white font-bold text-md">sales@mericanltd.com</h1>
+                  <i className="fas fa-paper-plane text-gray-300 m-1"> </i> <h1 className="text-gray-200 font-bold text-md">sales@mericanltd.com</h1>
                 </a>
               </div>
 
